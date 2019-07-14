@@ -1,0 +1,8 @@
+pipeline {
+    agent any
+    
+    
+    stages {
+        stages('SCM Checkout'){
+         git ''
+        
